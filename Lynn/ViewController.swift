@@ -37,7 +37,7 @@ class ViewController: UIViewController {
     }
     override func viewDidLayoutSubviews() {
         super.viewDidLayoutSubviews()
-        pageControl.frame = CGRect(x: 10, y: view.frame.size.height-70, width: view.frame.size.width-20, height:70)
+        pageControl.frame = CGRect(x: 20, y: view.frame.size.height-70, width: view.frame.size.width-20, height:80)
         
         scrollView.frame = CGRect(x: 0, y: 0, width: view.frame.size.width, height: view.frame.size.height)
         
