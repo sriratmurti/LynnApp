@@ -19,7 +19,7 @@ class ViewController: UIViewController {
     
     private let scrollView = UIScrollView()
     
-   
+    var airgif = [UIImage.gif(name: "page"),UIImage.gif(name: "page"),UIImage.gif(name: "Toksin"),UIImage.gif(name: "page"),UIImage.gif(name: "page"),UIImage.gif(name: "weak"),UIImage.gif(name: "lembab"),UIImage.gif(name: "cry"),UIImage.gif(name: "Drink more")]
     var gambars = [UIImage(named: "stortel1"),UIImage(named: "stortel2"),UIImage(named: "stortel3"),UIImage(named: "stortel4"),UIImage(named: "stortel5"),UIImage(named: "stortel6"),UIImage(named: "stortel7"),UIImage(named: "stortel8"),UIImage(named: "stortel9")]
     
     private let pageControl: UIPageControl = {
@@ -65,12 +65,16 @@ class ViewController: UIViewController {
             
             let page = UIImageView(frame: CGRect(x: CGFloat(x) * view.frame.size.width, y: -0.5, width: scrollView.frame.size.width, height: scrollView.frame.size.height))
             
+            let lynn = UIImageView(frame: CGRect(x: CGFloat(x) * view.frame.size.width, y: -0.5, width: view.frame.size.width-200, height: view.frame.size.height-100))
+            
             
            
             
             //deskripsi.text = desc[x]
             page.image = gambars[x]
+            lynn.image = airgif[x]
             scrollView.addSubview(page)
+            scrollView.addSubview(lynn)
         }
     }
     
