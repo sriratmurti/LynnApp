@@ -16,24 +16,15 @@
                         <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pYv-AW-Eg2">
-                                <rect key="frame" x="427" y="304" width="7" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Oe2-Nv-ltM">
+                                <rect key="frame" x="309" y="183" width="278" height="128.00000000000003"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
-                        <constraints>
-                            <constraint firstItem="pYv-AW-Eg2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="304" id="J67-pf-KlY"/>
-                            <constraint firstItem="pYv-AW-Eg2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="383" id="kre-CU-imj"/>
-                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="VJk-aq-hsY"/>
-                    <connections>
-                        <outlet property="capt" destination="pYv-AW-Eg2" id="tgQ-RM-LBP"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>

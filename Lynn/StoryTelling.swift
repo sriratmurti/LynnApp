@@ -21,14 +21,16 @@ class ViewController: UIViewController {
     
     private let scrollView = UIScrollView()
     
-    var airgif = [UIImage.gif(name: "page"),UIImage.gif(name: "page"),UIImage.gif(name: "Toksin"),UIImage.gif(name: "page"),UIImage.gif(name: "page"),UIImage.gif(name: "weak"),UIImage.gif(name: "lembab"),UIImage.gif(name: "cry"),UIImage.gif(name: "Drink more")]
-    var gambars = [UIImage(named: "stortel1"),UIImage(named: "stortel2"),UIImage(named: "stortel3"),UIImage(named: "stortel4"),UIImage(named: "stortel5"),UIImage(named: "stortel6"),UIImage(named: "stortel7"),UIImage(named: "stortel8"),UIImage(named: "stortel9")]
+    var airgif = [UIImage.gif(name: "Hero Lynn"),UIImage.gif(name: "Superman Not Me"),UIImage.gif(name: ""),UIImage.gif(name: "Secret"),UIImage.gif(name: "contain New"),UIImage.gif(name: "cry New"),UIImage.gif(name: "weak"),UIImage.gif(name: "Sweat"),UIImage.gif(name:"Presence"),UIImage.gif(name: "Child"),UIImage.gif(name: "more water")]
+    var gambars = [UIImage(named: "stortel1"),UIImage(named: "stortel2"),UIImage(named: "stortel3"),UIImage(named: "stortel4"),UIImage(named: "stortel5"),UIImage(named: "stortel6"),UIImage(named: "stortel7"),UIImage(named: "stortel8"),UIImage(named: "stortel9baru"),UIImage(named: "stortel10"),UIImage(named: "stortel11")]
     
     var voice = ["home page", "stortel1", "stortel2", "stortel3", "stortel4", "stortel5", "stortel6", "stortel7", "stortel8", "stortel9", "stortel10", "stortel11"]
     
+//    var caption = ["ADAAAAAA","Apppaaaaaaa?","hahaaa","empaaat","limaaaa","enaaaam","tujuh","lapan","sembilaaan"]
+    
     private let pageControl: UIPageControl = {
        let pageControl = UIPageControl()
-        pageControl.numberOfPages = 9
+        pageControl.numberOfPages = 11
         pageControl.backgroundColor = .clear
         return pageControl
     }()
@@ -87,24 +89,25 @@ class ViewController: UIViewController {
     }
     
     private func configureScrollView (){
-        scrollView.contentSize = CGSize(width: view.frame.size.width*9, height: view.frame.size.height)
+        scrollView.contentSize = CGSize(width: view.frame.size.width*11, height: view.frame.size.height)
         scrollView.isPagingEnabled = true
         
-        for x in 0 ..< 9 {
+        for x in 0 ..< 11 {
             playSound(number: x)
             let page = UIImageView(frame: CGRect(x: CGFloat(x) * view.frame.size.width, y: -0.5, width: scrollView.frame.size.width, height: scrollView.frame.size.height))
             
-            let lynn = UIImageView(frame: CGRect(x: CGFloat(x) * view.frame.size.width, y: -0.5, width: view.frame.size.width-200, height: view.frame.size.height-100))
+            let lynn = UIImageView(frame: CGRect(x: CGFloat(x)*view.frame.size.width + 170, y: 80, width: view.frame.size.width-400, height: view.frame.size.height-200))
             
-            
+//            let deskripsi = UILabel(frame: CGRect(x: CGFloat(x) * view.frame.size.width, y: -0.5, width: view.frame.size.width-200, height: view.frame.size.height-100))
            
             
-            //deskripsi.text = desc[x]
+            //deskripsi.text = caption[x]
             page.image = gambars[x]
             lynn.image = airgif[x]
             scrollView.addSubview(page)
             scrollView.addSubview(lynn)
-//            scrollView.layer.addSublayer(playSound(number: x))
+ //           scrollView.addSubview(deskripsi)
+//         scrollView.layer.addSublayer(playSound(number: x))
             
 //            self.[your scrollview].layer.addSublayer(the name of the video layer !)
             

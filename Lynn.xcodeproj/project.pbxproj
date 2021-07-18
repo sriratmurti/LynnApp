@@ -42,18 +42,6 @@
 		E246C97C26A25CF100E85581 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E246C97A26A25CF100E85581 /* LaunchScreen.storyboard */; };
 		E262D1DD26A3ACAA008C9FF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E262D1DC26A3ACAA008C9FF2 /* ViewController.swift */; };
 		E262D1DF26A3B2A4008C9FF2 /* animasi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E262D1DE26A3B2A4008C9FF2 /* animasi.swift */; };
-		E262D1E126A3B2DC008C9FF2 /* Child air.gif in Resources */ = {isa = PBXBuildFile; fileRef = E262D1E026A3B2DC008C9FF2 /* Child air.gif */; };
-		E262D1E326A3B2E2008C9FF2 /* contain.gif in Resources */ = {isa = PBXBuildFile; fileRef = E262D1E226A3B2E2008C9FF2 /* contain.gif */; };
-		E262D1EA26A3B2EB008C9FF2 /* cry.gif in Resources */ = {isa = PBXBuildFile; fileRef = E262D1E426A3B2EB008C9FF2 /* cry.gif */; };
-		E262D1EB26A3B2EB008C9FF2 /* page.gif in Resources */ = {isa = PBXBuildFile; fileRef = E262D1E526A3B2EB008C9FF2 /* page.gif */; };
-		E262D1EC26A3B2EB008C9FF2 /* Drink more.gif in Resources */ = {isa = PBXBuildFile; fileRef = E262D1E626A3B2EB008C9FF2 /* Drink more.gif */; };
-		E262D1ED26A3B2EB008C9FF2 /* Profil.gif in Resources */ = {isa = PBXBuildFile; fileRef = E262D1E726A3B2EB008C9FF2 /* Profil.gif */; };
-		E262D1EE26A3B2EB008C9FF2 /* lembab.gif in Resources */ = {isa = PBXBuildFile; fileRef = E262D1E826A3B2EB008C9FF2 /* lembab.gif */; };
-		E262D1EF26A3B2EB008C9FF2 /* presence.gif in Resources */ = {isa = PBXBuildFile; fileRef = E262D1E926A3B2EB008C9FF2 /* presence.gif */; };
-		E262D1F426A3B2FC008C9FF2 /* Weak.gif in Resources */ = {isa = PBXBuildFile; fileRef = E262D1F026A3B2FC008C9FF2 /* Weak.gif */; };
-		E262D1F526A3B2FC008C9FF2 /* Lynn.gif in Resources */ = {isa = PBXBuildFile; fileRef = E262D1F126A3B2FC008C9FF2 /* Lynn.gif */; };
-		E262D1F626A3B2FC008C9FF2 /* organ.gif in Resources */ = {isa = PBXBuildFile; fileRef = E262D1F226A3B2FC008C9FF2 /* organ.gif */; };
-		E262D1F726A3B2FC008C9FF2 /* Toksin.gif in Resources */ = {isa = PBXBuildFile; fileRef = E262D1F326A3B2FC008C9FF2 /* Toksin.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -94,18 +82,6 @@
 		E246C97D26A25CF100E85581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E262D1DC26A3ACAA008C9FF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E262D1DE26A3B2A4008C9FF2 /* animasi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animasi.swift; sourceTree = "<group>"; };
-		E262D1E026A3B2DC008C9FF2 /* Child air.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Child air.gif"; sourceTree = "<group>"; };
-		E262D1E226A3B2E2008C9FF2 /* contain.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = contain.gif; sourceTree = "<group>"; };
-		E262D1E426A3B2EB008C9FF2 /* cry.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = cry.gif; sourceTree = "<group>"; };
-		E262D1E526A3B2EB008C9FF2 /* page.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = page.gif; sourceTree = "<group>"; };
-		E262D1E626A3B2EB008C9FF2 /* Drink more.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = "Drink more.gif"; sourceTree = "<group>"; };
-		E262D1E726A3B2EB008C9FF2 /* Profil.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Profil.gif; sourceTree = "<group>"; };
-		E262D1E826A3B2EB008C9FF2 /* lembab.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = lembab.gif; sourceTree = "<group>"; };
-		E262D1E926A3B2EB008C9FF2 /* presence.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = presence.gif; sourceTree = "<group>"; };
-		E262D1F026A3B2FC008C9FF2 /* Weak.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Weak.gif; sourceTree = "<group>"; };
-		E262D1F126A3B2FC008C9FF2 /* Lynn.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Lynn.gif; sourceTree = "<group>"; };
-		E262D1F226A3B2FC008C9FF2 /* organ.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = organ.gif; sourceTree = "<group>"; };
-		E262D1F326A3B2FC008C9FF2 /* Toksin.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Toksin.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -181,18 +157,6 @@
 			children = (
 				6D3EFED626A4778500ACA245 /* Gif */,
 				6DE9E25526A3D8DB00446DA2 /* Sound */,
-				E262D1E026A3B2DC008C9FF2 /* Child air.gif */,
-				E262D1E226A3B2E2008C9FF2 /* contain.gif */,
-				E262D1E426A3B2EB008C9FF2 /* cry.gif */,
-				E262D1E626A3B2EB008C9FF2 /* Drink more.gif */,
-				E262D1E826A3B2EB008C9FF2 /* lembab.gif */,
-				E262D1E526A3B2EB008C9FF2 /* page.gif */,
-				E262D1E926A3B2EB008C9FF2 /* presence.gif */,
-				E262D1E726A3B2EB008C9FF2 /* Profil.gif */,
-				E262D1F126A3B2FC008C9FF2 /* Lynn.gif */,
-				E262D1F226A3B2FC008C9FF2 /* organ.gif */,
-				E262D1F326A3B2FC008C9FF2 /* Toksin.gif */,
-				E262D1F026A3B2FC008C9FF2 /* Weak.gif */,
 				E246C96F26A25CF100E85581 /* AppDelegate.swift */,
 				E246C97126A25CF100E85581 /* SceneDelegate.swift */,
 				E246C97326A25CF100E85581 /* StoryTelling.swift */,
@@ -266,29 +230,21 @@
 				E246C97C26A25CF100E85581 /* LaunchScreen.storyboard in Resources */,
 				6D3EFEEB26A477B500ACA245 /* Child.gif in Resources */,
 				6D3EFEF226A477B500ACA245 /* Profil New.gif in Resources */,
-				E262D1EE26A3B2EB008C9FF2 /* lembab.gif in Resources */,
 				6DE9E26726A45FD800446DA2 /* sound1.mp3 in Resources */,
 				6D3EFEE626A477B500ACA245 /* cry New.gif in Resources */,
 				6D3EFEEE26A477B500ACA245 /* Presence.gif in Resources */,
 				6DE9E28726A4628F00446DA2 /* stortel4.mp3 in Resources */,
 				6DE9E28426A4628F00446DA2 /* stortel10.mp3 in Resources */,
-				E262D1F526A3B2FC008C9FF2 /* Lynn.gif in Resources */,
-				E262D1E126A3B2DC008C9FF2 /* Child air.gif in Resources */,
 				6DE9E28926A4628F00446DA2 /* stortel6.mp3 in Resources */,
-				E262D1EB26A3B2EB008C9FF2 /* page.gif in Resources */,
 				6D3EFEED26A477B500ACA245 /* more water.gif in Resources */,
 				6D3EFEEF26A477B500ACA245 /* Lembab.gif in Resources */,
 				6D3EFEE526A477B500ACA245 /* Superman Not Me.gif in Resources */,
-				E262D1E326A3B2E2008C9FF2 /* contain.gif in Resources */,
 				6D3EFEE726A477B500ACA245 /* Organ.gif in Resources */,
-				E262D1EA26A3B2EB008C9FF2 /* cry.gif in Resources */,
 				6D3EFEEA26A477B500ACA245 /* Toksin New.gif in Resources */,
 				6DE9E28226A4628F00446DA2 /* stortel8.mp3 in Resources */,
-				E262D1EC26A3B2EB008C9FF2 /* Drink more.gif in Resources */,
 				6DE9E28126A4628F00446DA2 /* stortel2.mp3 in Resources */,
 				E246C97926A25CF100E85581 /* Assets.xcassets in Resources */,
 				6D3EFEEC26A477B500ACA245 /* Secret.gif in Resources */,
-				E262D1F426A3B2FC008C9FF2 /* Weak.gif in Resources */,
 				6DE9E27526A460B100446DA2 /* home page.mp3 in Resources */,
 				6D3EFEE926A477B500ACA245 /* Sweat.gif in Resources */,
 				6D3EFEF126A477B500ACA245 /* Hero Lynn.gif in Resources */,
@@ -296,15 +252,11 @@
 				6D3EFEE826A477B500ACA245 /* weak.gif in Resources */,
 				6DE9E28626A4628F00446DA2 /* stortel1.mp3 in Resources */,
 				6DE9E28A26A4628F00446DA2 /* stortel5.mp3 in Resources */,
-				E262D1F626A3B2FC008C9FF2 /* organ.gif in Resources */,
-				E262D1EF26A3B2EB008C9FF2 /* presence.gif in Resources */,
 				6DE9E28826A4628F00446DA2 /* stortel11.mp3 in Resources */,
 				6DE9E28B26A4628F00446DA2 /* stortel3.mp3 in Resources */,
 				6DE9E28326A4628F00446DA2 /* stortel9.mp3 in Resources */,
 				E246C97726A25CF100E85581 /* Main.storyboard in Resources */,
-				E262D1ED26A3B2EB008C9FF2 /* Profil.gif in Resources */,
 				6DE9E28526A4628F00446DA2 /* stortel7.mp3 in Resources */,
-				E262D1F726A3B2FC008C9FF2 /* Toksin.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
