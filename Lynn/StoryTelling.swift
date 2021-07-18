@@ -6,6 +6,7 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
 
@@ -15,7 +16,7 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var capt: UILabel!
     
-    
+    var backgroundSound = AVAudioPlayer()
     
     private let scrollView = UIScrollView()
     
@@ -38,6 +39,7 @@ class ViewController: UIViewController {
         view.addSubview(pageControl)
         //air.loadGif(name: "page")
         
+        playSound()
        
     }
     
@@ -54,6 +56,18 @@ class ViewController: UIViewController {
         if scrollView.subviews.count == 2 {
             configureScrollView()
         }
+    }
+    
+    private func playSound() {
+        let sound = Bundle.main.path(forResource: "sound1", ofType: "mp3")
+        
+        do{
+            backgroundSound = try AVAudioPlayer(contentsOf: URL(fileURLWithPath: sound!))
+        }catch{
+            print(error)
+        }
+        
+        backgroundSound.play()
     }
     
     private func configureScrollView (){
