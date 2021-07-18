@@ -21,7 +21,9 @@ class ViewController: UIViewController {
     
     private let scrollView = UIScrollView()
     
-    var airgif = [UIImage.gif(name: "page"),UIImage.gif(name: "page"),UIImage.gif(name: "Toksin"),UIImage.gif(name: "page"),UIImage.gif(name: "page"),UIImage.gif(name: "weak"),UIImage.gif(name: "lembab"),UIImage.gif(name: "cry"),UIImage.gif(name: "Drink more")]
+//    var airgif = [UIImage.gif(name: "page"),UIImage.gif(name: "page"),UIImage.gif(name: "Toksin"),UIImage.gif(name: "page"),UIImage.gif(name: "page"),UIImage.gif(name: "weak"),UIImage.gif(name: "lembab"),UIImage.gif(name: "cry"),UIImage.gif(name: "Drink more")]
+    
+    var airgif = [UIImage.gif(name: "Superman Not Me"),UIImage.gif(name: "Superman Not Me"),UIImage.gif(name: "Toksin New"),UIImage.gif(name: "Superman Not Me"),UIImage.gif(name: "Superman Not Me"),UIImage.gif(name: "weak"),UIImage.gif(name: "Lembab"),UIImage.gif(name: "cry New"),UIImage.gif(name: "more water")]
     
     var gambars = [UIImage(named: "stortel1"),UIImage(named: "stortel2"),UIImage(named: "stortel3"),UIImage(named: "stortel4"),UIImage(named: "stortel5"),UIImage(named: "stortel6"),UIImage(named: "stortel7"),UIImage(named: "stortel8"),UIImage(named: "stortel9")]
     
