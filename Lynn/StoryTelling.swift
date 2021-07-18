@@ -11,9 +11,16 @@ class ViewController: UIViewController {
 
     @IBOutlet weak var imageView: UIImageView!
     
+    @IBOutlet weak var air: UIImageView!
+    
+    @IBOutlet weak var capt: UILabel!
+    
+    
+    
     private let scrollView = UIScrollView()
     
-    var gambars = [UIImage(named: "tiga"),UIImage(named: "empat"),UIImage(named: "lima"),UIImage(named: "enam"),UIImage(named: "tujuh"),UIImage(named: "satu"),UIImage(named: "tiga")]
+   
+    var gambars = [UIImage(named: "stortel1"),UIImage(named: "stortel2"),UIImage(named: "stortel3"),UIImage(named: "stortel4"),UIImage(named: "stortel5"),UIImage(named: "stortel6"),UIImage(named: "stortel7")]
     
     private let pageControl: UIPageControl = {
        let pageControl = UIPageControl()
@@ -29,6 +36,9 @@ class ViewController: UIViewController {
         scrollView.backgroundColor = .clear
         view.addSubview(scrollView)
         view.addSubview(pageControl)
+        //air.loadGif(name: "page")
+        
+       
     }
     
     @objc private func pagecontrolDidChange(_ sender: UIPageControl){
@@ -52,9 +62,13 @@ class ViewController: UIViewController {
         
        
         for x in 0 ..< 7 {
-            let page = UIImageView(frame: CGRect(x: CGFloat(x) * view.frame.size.width, y: 0, width: view.frame.size.width, height: scrollView.frame.size.height))
-          
             
+            let page = UIImageView(frame: CGRect(x: CGFloat(x) * view.frame.size.width, y: 0, width: view.frame.size.width, height: scrollView.frame.size.height))
+            
+            
+           
+            
+            //deskripsi.text = desc[x]
             page.image = gambars[x]
             scrollView.addSubview(page)
         }

@@ -16,27 +16,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="#3" translatesAutoresizingMaskIntoConstraints="NO" id="rhJ-Hg-IkC">
-                                <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" secondItem="rhJ-Hg-IkC" secondAttribute="height" multiplier="448:207" id="byf-ag-zlN"/>
-                                </constraints>
-                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="(" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pYv-AW-Eg2">
+                                <rect key="frame" x="427" y="304" width="7" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstItem="rhJ-Hg-IkC" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="AZl-M1-qMI"/>
-                            <constraint firstItem="rhJ-Hg-IkC" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="Ecb-TT-gyV"/>
-                            <constraint firstItem="rhJ-Hg-IkC" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="OVZ-Dg-XUR"/>
-                            <constraint firstItem="rhJ-Hg-IkC" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Q38-ic-iEl"/>
-                            <constraint firstAttribute="bottom" secondItem="rhJ-Hg-IkC" secondAttribute="bottom" id="htB-cu-tDY"/>
-                            <constraint firstAttribute="trailing" secondItem="rhJ-Hg-IkC" secondAttribute="trailing" id="n5F-I5-y2U"/>
+                            <constraint firstItem="pYv-AW-Eg2" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="304" id="J67-pf-KlY"/>
+                            <constraint firstItem="pYv-AW-Eg2" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="383" id="kre-CU-imj"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="VJk-aq-hsY"/>
                     <connections>
-                        <outlet property="imageView" destination="rhJ-Hg-IkC" id="SN8-rR-QXE"/>
+                        <outlet property="capt" destination="pYv-AW-Eg2" id="tgQ-RM-LBP"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
@@ -66,17 +62,20 @@
                                     <segue destination="BYZ-38-t0r" kind="show" id="fmg-4C-TKW"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="5kX-4r-d30">
-                                <rect key="frame" x="180" y="143" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5kX-4r-d30">
+                                <rect key="frame" x="130" y="128" width="240" height="128"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6hL-9X-9b2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstAttribute="bottom" secondItem="ViX-Rh-QVQ" secondAttribute="bottom" id="CMa-YB-3t5"/>
+                            <constraint firstItem="5kX-4r-d30" firstAttribute="leading" secondItem="6hL-9X-9b2" secondAttribute="leading" constant="86" id="CPh-Gq-21P"/>
+                            <constraint firstItem="6hL-9X-9b2" firstAttribute="trailing" secondItem="5kX-4r-d30" secondAttribute="trailing" constant="482" id="DGg-rq-tte"/>
                             <constraint firstItem="ViX-Rh-QVQ" firstAttribute="leading" secondItem="R4z-Zz-Fb8" secondAttribute="leading" id="N8n-Zg-CqU"/>
                             <constraint firstItem="ViX-Rh-QVQ" firstAttribute="top" secondItem="6hL-9X-9b2" secondAttribute="top" id="NhX-xH-LtB"/>
+                            <constraint firstItem="6hL-9X-9b2" firstAttribute="bottom" secondItem="5kX-4r-d30" secondAttribute="bottom" constant="137" id="OTx-F3-wuY"/>
+                            <constraint firstItem="5kX-4r-d30" firstAttribute="top" secondItem="6hL-9X-9b2" secondAttribute="top" constant="128" id="c8G-Uw-9Wd"/>
                             <constraint firstItem="ViX-Rh-QVQ" firstAttribute="centerY" secondItem="R4z-Zz-Fb8" secondAttribute="centerY" id="cYG-WT-36g"/>
                             <constraint firstItem="ViX-Rh-QVQ" firstAttribute="centerX" secondItem="R4z-Zz-Fb8" secondAttribute="centerX" id="pe7-QX-ZGm"/>
                             <constraint firstAttribute="trailing" secondItem="ViX-Rh-QVQ" secondAttribute="trailing" id="sQo-bw-n93"/>
@@ -93,7 +92,6 @@
         </scene>
     </scenes>
     <resources>
-        <image name="#3" width="1733" height="845"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
