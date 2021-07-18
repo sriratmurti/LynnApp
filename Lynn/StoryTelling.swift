@@ -20,11 +20,11 @@ class ViewController: UIViewController {
     private let scrollView = UIScrollView()
     
    
-    var gambars = [UIImage(named: "stortel1"),UIImage(named: "stortel2"),UIImage(named: "stortel3"),UIImage(named: "stortel4"),UIImage(named: "stortel5"),UIImage(named: "stortel6"),UIImage(named: "stortel7")]
+    var gambars = [UIImage(named: "stortel1"),UIImage(named: "stortel2"),UIImage(named: "stortel3"),UIImage(named: "stortel4"),UIImage(named: "stortel5"),UIImage(named: "stortel6"),UIImage(named: "stortel7"),UIImage(named: "stortel8"),UIImage(named: "stortel9")]
     
     private let pageControl: UIPageControl = {
        let pageControl = UIPageControl()
-        pageControl.numberOfPages = 7
+        pageControl.numberOfPages = 9
         pageControl.backgroundColor = .clear
         return pageControl
     }()
@@ -49,7 +49,7 @@ class ViewController: UIViewController {
         super.viewDidLayoutSubviews()
         pageControl.frame = CGRect(x: 0, y: view.frame.size.height-70, width: view.frame.size.width-20, height:70)
         
-        scrollView.frame = CGRect(x: 0, y: 0, width: view.frame.size.width, height: view.frame.size.height)
+        scrollView.frame = CGRect(x: 0.5, y: -0.5, width: view.frame.size.width, height: view.frame.size.height)
         
         if scrollView.subviews.count == 2 {
             configureScrollView()
@@ -57,13 +57,13 @@ class ViewController: UIViewController {
     }
     
     private func configureScrollView (){
-        scrollView.contentSize = CGSize(width: view.frame.size.width*7, height: scrollView.frame.size.height)
+        scrollView.contentSize = CGSize(width: view.frame.size.width*9, height: view.frame.size.height)
         scrollView.isPagingEnabled = true
         
        
-        for x in 0 ..< 7 {
+        for x in 0 ..< 9 {
             
-            let page = UIImageView(frame: CGRect(x: CGFloat(x) * view.frame.size.width, y: 0, width: view.frame.size.width, height: scrollView.frame.size.height))
+            let page = UIImageView(frame: CGRect(x: CGFloat(x) * view.frame.size.width, y: -0.5, width: scrollView.frame.size.width, height: scrollView.frame.size.height))
             
             
            

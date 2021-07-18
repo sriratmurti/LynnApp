@@ -13,12 +13,13 @@ class homeScreen : UIViewController {
     
     @IBOutlet weak var air: UIImageView!
     
-    
     override func viewDidLoad() {
         super .viewDidLoad()
         
         imageView.image = UIImage(named: "satu")
-        air.image = UIImage(named: "Lynn")
+
+        air.loadGif(name: "Profil")
     }
     
 }
+
