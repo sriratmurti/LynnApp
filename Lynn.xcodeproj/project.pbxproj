@@ -7,7 +7,19 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6DE9E25726A3D93400446DA2 /* sound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE9E25626A3D93400446DA2 /* sound1.mp3 */; };
+		6DE9E26726A45FD800446DA2 /* sound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE9E26626A45FD800446DA2 /* sound1.mp3 */; };
+		6DE9E27526A460B100446DA2 /* home page.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE9E27426A460B000446DA2 /* home page.mp3 */; };
+		6DE9E28126A4628F00446DA2 /* stortel2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE9E27626A4628F00446DA2 /* stortel2.mp3 */; };
+		6DE9E28226A4628F00446DA2 /* stortel8.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE9E27726A4628F00446DA2 /* stortel8.mp3 */; };
+		6DE9E28326A4628F00446DA2 /* stortel9.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE9E27826A4628F00446DA2 /* stortel9.mp3 */; };
+		6DE9E28426A4628F00446DA2 /* stortel10.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE9E27926A4628F00446DA2 /* stortel10.mp3 */; };
+		6DE9E28526A4628F00446DA2 /* stortel7.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE9E27A26A4628F00446DA2 /* stortel7.mp3 */; };
+		6DE9E28626A4628F00446DA2 /* stortel1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE9E27B26A4628F00446DA2 /* stortel1.mp3 */; };
+		6DE9E28726A4628F00446DA2 /* stortel4.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE9E27C26A4628F00446DA2 /* stortel4.mp3 */; };
+		6DE9E28826A4628F00446DA2 /* stortel11.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE9E27D26A4628F00446DA2 /* stortel11.mp3 */; };
+		6DE9E28926A4628F00446DA2 /* stortel6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE9E27E26A4628F00446DA2 /* stortel6.mp3 */; };
+		6DE9E28A26A4628F00446DA2 /* stortel5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE9E27F26A4628F00446DA2 /* stortel5.mp3 */; };
+		6DE9E28B26A4628F00446DA2 /* stortel3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE9E28026A4628F00446DA2 /* stortel3.mp3 */; };
 		E246C97026A25CF100E85581 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E246C96F26A25CF100E85581 /* AppDelegate.swift */; };
 		E246C97226A25CF100E85581 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E246C97126A25CF100E85581 /* SceneDelegate.swift */; };
 		E246C97426A25CF100E85581 /* StoryTelling.swift in Sources */ = {isa = PBXBuildFile; fileRef = E246C97326A25CF100E85581 /* StoryTelling.swift */; };
@@ -31,7 +43,19 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		6DE9E25626A3D93400446DA2 /* sound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound1.mp3; sourceTree = "<group>"; };
+		6DE9E26626A45FD800446DA2 /* sound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound1.mp3; sourceTree = "<group>"; };
+		6DE9E27426A460B000446DA2 /* home page.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "home page.mp3"; sourceTree = "<group>"; };
+		6DE9E27626A4628F00446DA2 /* stortel2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stortel2.mp3; sourceTree = "<group>"; };
+		6DE9E27726A4628F00446DA2 /* stortel8.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stortel8.mp3; sourceTree = "<group>"; };
+		6DE9E27826A4628F00446DA2 /* stortel9.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stortel9.mp3; sourceTree = "<group>"; };
+		6DE9E27926A4628F00446DA2 /* stortel10.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stortel10.mp3; sourceTree = "<group>"; };
+		6DE9E27A26A4628F00446DA2 /* stortel7.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stortel7.mp3; sourceTree = "<group>"; };
+		6DE9E27B26A4628F00446DA2 /* stortel1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stortel1.mp3; sourceTree = "<group>"; };
+		6DE9E27C26A4628F00446DA2 /* stortel4.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stortel4.mp3; sourceTree = "<group>"; };
+		6DE9E27D26A4628F00446DA2 /* stortel11.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stortel11.mp3; sourceTree = "<group>"; };
+		6DE9E27E26A4628F00446DA2 /* stortel6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stortel6.mp3; sourceTree = "<group>"; };
+		6DE9E27F26A4628F00446DA2 /* stortel5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stortel5.mp3; sourceTree = "<group>"; };
+		6DE9E28026A4628F00446DA2 /* stortel3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stortel3.mp3; sourceTree = "<group>"; };
 		E246C96C26A25CF100E85581 /* Lynn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lynn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E246C96F26A25CF100E85581 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E246C97126A25CF100E85581 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -70,7 +94,19 @@
 		6DE9E25526A3D8DB00446DA2 /* Sound */ = {
 			isa = PBXGroup;
 			children = (
-				6DE9E25626A3D93400446DA2 /* sound1.mp3 */,
+				6DE9E26626A45FD800446DA2 /* sound1.mp3 */,
+				6DE9E27426A460B000446DA2 /* home page.mp3 */,
+				6DE9E27B26A4628F00446DA2 /* stortel1.mp3 */,
+				6DE9E27626A4628F00446DA2 /* stortel2.mp3 */,
+				6DE9E28026A4628F00446DA2 /* stortel3.mp3 */,
+				6DE9E27C26A4628F00446DA2 /* stortel4.mp3 */,
+				6DE9E27F26A4628F00446DA2 /* stortel5.mp3 */,
+				6DE9E27E26A4628F00446DA2 /* stortel6.mp3 */,
+				6DE9E27A26A4628F00446DA2 /* stortel7.mp3 */,
+				6DE9E27726A4628F00446DA2 /* stortel8.mp3 */,
+				6DE9E27826A4628F00446DA2 /* stortel9.mp3 */,
+				6DE9E27926A4628F00446DA2 /* stortel10.mp3 */,
+				6DE9E27D26A4628F00446DA2 /* stortel11.mp3 */,
 			);
 			path = Sound;
 			sourceTree = "<group>";
@@ -179,19 +215,31 @@
 			files = (
 				E246C97C26A25CF100E85581 /* LaunchScreen.storyboard in Resources */,
 				E262D1EE26A3B2EB008C9FF2 /* lembab.gif in Resources */,
-				6DE9E25726A3D93400446DA2 /* sound1.mp3 in Resources */,
+				6DE9E26726A45FD800446DA2 /* sound1.mp3 in Resources */,
+				6DE9E28726A4628F00446DA2 /* stortel4.mp3 in Resources */,
+				6DE9E28426A4628F00446DA2 /* stortel10.mp3 in Resources */,
 				E262D1F526A3B2FC008C9FF2 /* Lynn.gif in Resources */,
 				E262D1E126A3B2DC008C9FF2 /* Child air.gif in Resources */,
+				6DE9E28926A4628F00446DA2 /* stortel6.mp3 in Resources */,
 				E262D1EB26A3B2EB008C9FF2 /* page.gif in Resources */,
 				E262D1E326A3B2E2008C9FF2 /* contain.gif in Resources */,
 				E262D1EA26A3B2EB008C9FF2 /* cry.gif in Resources */,
+				6DE9E28226A4628F00446DA2 /* stortel8.mp3 in Resources */,
 				E262D1EC26A3B2EB008C9FF2 /* Drink more.gif in Resources */,
+				6DE9E28126A4628F00446DA2 /* stortel2.mp3 in Resources */,
 				E246C97926A25CF100E85581 /* Assets.xcassets in Resources */,
 				E262D1F426A3B2FC008C9FF2 /* Weak.gif in Resources */,
+				6DE9E27526A460B100446DA2 /* home page.mp3 in Resources */,
+				6DE9E28626A4628F00446DA2 /* stortel1.mp3 in Resources */,
+				6DE9E28A26A4628F00446DA2 /* stortel5.mp3 in Resources */,
 				E262D1F626A3B2FC008C9FF2 /* organ.gif in Resources */,
 				E262D1EF26A3B2EB008C9FF2 /* presence.gif in Resources */,
+				6DE9E28826A4628F00446DA2 /* stortel11.mp3 in Resources */,
+				6DE9E28B26A4628F00446DA2 /* stortel3.mp3 in Resources */,
+				6DE9E28326A4628F00446DA2 /* stortel9.mp3 in Resources */,
 				E246C97726A25CF100E85581 /* Main.storyboard in Resources */,
 				E262D1ED26A3B2EB008C9FF2 /* Profil.gif in Resources */,
+				6DE9E28526A4628F00446DA2 /* stortel7.mp3 in Resources */,
 				E262D1F726A3B2FC008C9FF2 /* Toksin.gif in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
