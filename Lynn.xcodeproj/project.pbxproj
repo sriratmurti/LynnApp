@@ -42,6 +42,7 @@
 		E246C97C26A25CF100E85581 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E246C97A26A25CF100E85581 /* LaunchScreen.storyboard */; };
 		E262D1DD26A3ACAA008C9FF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E262D1DC26A3ACAA008C9FF2 /* ViewController.swift */; };
 		E262D1DF26A3B2A4008C9FF2 /* animasi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E262D1DE26A3B2A4008C9FF2 /* animasi.swift */; };
+		E2B67DA126A53FC50075126A /* Benefit.gif in Resources */ = {isa = PBXBuildFile; fileRef = E2B67DA026A53FC50075126A /* Benefit.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -82,6 +83,7 @@
 		E246C97D26A25CF100E85581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E262D1DC26A3ACAA008C9FF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E262D1DE26A3B2A4008C9FF2 /* animasi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animasi.swift; sourceTree = "<group>"; };
+		E2B67DA026A53FC50075126A /* Benefit.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Benefit.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +114,7 @@
 				6D3EFEDB26A477B500ACA245 /* Sweat.gif */,
 				6D3EFEDC26A477B500ACA245 /* Toksin New.gif */,
 				6D3EFEDA26A477B500ACA245 /* weak.gif */,
+				E2B67DA026A53FC50075126A /* Benefit.gif */,
 			);
 			path = Gif;
 			sourceTree = "<group>";
@@ -246,6 +249,7 @@
 				E246C97926A25CF100E85581 /* Assets.xcassets in Resources */,
 				6D3EFEEC26A477B500ACA245 /* Secret.gif in Resources */,
 				6DE9E27526A460B100446DA2 /* home page.mp3 in Resources */,
+				E2B67DA126A53FC50075126A /* Benefit.gif in Resources */,
 				6D3EFEE926A477B500ACA245 /* Sweat.gif in Resources */,
 				6D3EFEF126A477B500ACA245 /* Hero Lynn.gif in Resources */,
 				6D3EFEF026A477B500ACA245 /* contain New.gif in Resources */,
@@ -419,7 +423,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JFAH6YB752;
+				DEVELOPMENT_TEAM = P94HWRYJL7;
 				INFOPLIST_FILE = Lynn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -438,7 +442,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = JFAH6YB752;
+				DEVELOPMENT_TEAM = P94HWRYJL7;
 				INFOPLIST_FILE = Lynn/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

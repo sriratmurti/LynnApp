@@ -21,8 +21,8 @@ class ViewController: UIViewController {
     
     private let scrollView = UIScrollView()
     
-    var airgif = [UIImage.gif(name: "Hero Lynn"),UIImage.gif(name: "Superman Not Me"),UIImage.gif(name: ""),UIImage.gif(name: "Secret"),UIImage.gif(name: "contain New"),UIImage.gif(name: "cry New"),UIImage.gif(name: "weak"),UIImage.gif(name: "Sweat"),UIImage.gif(name:"Presence"),UIImage.gif(name: "Child"),UIImage.gif(name: "more water")]
-    var gambars = [UIImage(named: "stortel1"),UIImage(named: "stortel2"),UIImage(named: "stortel3"),UIImage(named: "stortel4"),UIImage(named: "stortel5"),UIImage(named: "stortel6"),UIImage(named: "stortel7"),UIImage(named: "stortel8"),UIImage(named: "stortel9baru"),UIImage(named: "stortel10"),UIImage(named: "stortel11")]
+    var airgif = [UIImage.gif(name: "Hero Lynn"),UIImage.gif(name: "Superman Not Me"),UIImage.gif(name: "Benefit"),UIImage.gif(name: "Secret"),UIImage.gif(name: "contain New"),UIImage.gif(name: "cry New"),UIImage.gif(name: "weak"),UIImage.gif(name: "Sweat"),UIImage.gif(name:"Presence"),UIImage.gif(name: "Child"),UIImage.gif(name: "more water")]
+    var gambars = [UIImage(named: "1"),UIImage(named: "2"),UIImage(named: "3"),UIImage(named: "4"),UIImage(named: "5"),UIImage(named: "6"),UIImage(named: "7"),UIImage(named: "8"),UIImage(named: "9"),UIImage(named: "10"),UIImage(named: "11")]
     
     var voice = ["home page", "stortel1", "stortel2", "stortel3", "stortel4", "stortel5", "stortel6", "stortel7", "stortel8", "stortel9", "stortel10", "stortel11"]
     
@@ -39,7 +39,7 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         scrollView.delegate = self
         pageControl.addTarget(self, action: #selector(pagecontrolDidChange(_:)), for: .valueChanged)
-        scrollView.backgroundColor = .clear
+     //   scrollView.backgroundColor = .clear
         view.addSubview(scrollView)
         view.addSubview(pageControl)
         
@@ -96,7 +96,7 @@ class ViewController: UIViewController {
             playSound(number: x)
             let page = UIImageView(frame: CGRect(x: CGFloat(x) * view.frame.size.width, y: -0.5, width: scrollView.frame.size.width, height: scrollView.frame.size.height))
             
-            let lynn = UIImageView(frame: CGRect(x: CGFloat(x)*view.frame.size.width + 170, y: 80, width: view.frame.size.width-400, height: view.frame.size.height-200))
+            let lynn = UIImageView(frame: CGRect(x: CGFloat(x)*view.frame.size.width + 177, y: 87, width: view.frame.size.width-400, height: view.frame.size.height-200))
             
 //            let deskripsi = UILabel(frame: CGRect(x: CGFloat(x) * view.frame.size.width, y: -0.5, width: view.frame.size.width-200, height: view.frame.size.height-100))
            
