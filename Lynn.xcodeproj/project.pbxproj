@@ -95,7 +95,7 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		6D3EFED626A4778500ACA245 /* Gif */ = {
+		6D3EFED626A4778500ACA245 /* Animasi Lynn */ = {
 			isa = PBXGroup;
 			children = (
 				6D3EFEDD26A477B500ACA245 /* Child.gif */,
@@ -113,7 +113,7 @@
 				6D3EFEDC26A477B500ACA245 /* Toksin New.gif */,
 				6D3EFEDA26A477B500ACA245 /* weak.gif */,
 			);
-			path = Gif;
+			path = "Animasi Lynn";
 			sourceTree = "<group>";
 		};
 		6DE9E25526A3D8DB00446DA2 /* Sound */ = {
@@ -155,7 +155,7 @@
 		E246C96E26A25CF100E85581 /* Lynn */ = {
 			isa = PBXGroup;
 			children = (
-				6D3EFED626A4778500ACA245 /* Gif */,
+				6D3EFED626A4778500ACA245 /* Animasi Lynn */,
 				6DE9E25526A3D8DB00446DA2 /* Sound */,
 				E246C96F26A25CF100E85581 /* AppDelegate.swift */,
 				E246C97126A25CF100E85581 /* SceneDelegate.swift */,
