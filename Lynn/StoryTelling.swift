@@ -37,6 +37,7 @@ class ViewController: UIViewController {
         pageControl.numberOfPages = 11
         pageControl.backgroundColor = .clear
         return pageControl
+        
     }()
     
     override func viewDidLoad() {
@@ -52,9 +53,12 @@ class ViewController: UIViewController {
         //air.loadGif(name: "page")
         
 //        playSound()
-       
+        
     }
     
+    @objc func dismissSelf(){
+        dismiss(animated: true, completion: nil)
+    }
     @objc private func pagecontrolDidChange(_ sender: UIPageControl){
         let current = sender.currentPage
         scrollView.setContentOffset(CGPoint(x: CGFloat(current) * view.frame.size.width, y: 0), animated: true)
@@ -158,6 +162,13 @@ class ViewController: UIViewController {
         scrollView.isPagingEnabled = true
         
         for x in 0 ..< 11 {
+            
+            let button = UIButton.init(type: .roundedRect)
+                        button.setTitle("<Home", for: .normal)
+                        button.frame = CGRect(x: CGFloat(x) * view.frame.size.width + 20, y: 25, width: 50, height: 25)
+                        button.addTarget(self, action: #selector(dismissSelf), for: .touchDown)
+            button.backgroundColor = .clear
+
             let page = UIImageView(frame: CGRect(x: CGFloat(x) * view.frame.size.width, y: -0.5, width: scrollView.frame.size.width, height: scrollView.frame.size.height))
             
             var lynn = UIImageView()
@@ -256,7 +267,7 @@ class ViewController: UIViewController {
            
             scrollView.addSubview(page)
             scrollView.addSubview(lynn)
-            
+            scrollView.addSubview(button)
 
             
  //           scrollView.addSubview(deskripsi)
