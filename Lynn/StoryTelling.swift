@@ -25,6 +25,8 @@ class ViewController: UIViewController {
     var gambars = [UIImage(named: "1"),UIImage(named: "2"),UIImage(named: "3"),UIImage(named: "4"),UIImage(named: "5"),UIImage(named: "6"),UIImage(named: "7"),UIImage(named: "8"),UIImage(named: "9"),UIImage(named: "10"),UIImage(named: "11")]
     
     var voice = ["home page", "stortel1", "stortel2", "stortel3", "stortel4", "stortel5", "stortel6", "stortel7", "stortel8", "stortel9", "stortel10", "stortel11"]
+    var coba = UIImage.gif(name: "Organ")
+    var coba2 = UIImage.gif(name: "Toksin")
     
 //    var caption = ["ADAAAAAA","Apppaaaaaaa?","hahaaa","empaaat","limaaaa","enaaaam","tujuh","lapan","sembilaaan"]
     
@@ -96,14 +98,51 @@ class ViewController: UIViewController {
             playSound(number: x)
             let page = UIImageView(frame: CGRect(x: CGFloat(x) * view.frame.size.width, y: -0.5, width: scrollView.frame.size.width, height: scrollView.frame.size.height))
             
-            let lynn = UIImageView(frame: CGRect(x: CGFloat(x)*view.frame.size.width + 177, y: 87, width: view.frame.size.width-400, height: view.frame.size.height-200))
+            var lynn = UIImageView()
             
-//            let deskripsi = UILabel(frame: CGRect(x: CGFloat(x) * view.frame.size.width, y: -0.5, width: view.frame.size.width-200, height: view.frame.size.height-100))
+            if x == 0 {
+                lynn = UIImageView(frame: CGRect(x: CGFloat(x)*view.frame.size.width + 260, y: 13, width: 265, height: 265))
+            }else if x == 1 {
+                lynn = UIImageView(frame: CGRect(x: CGFloat(x)*view.frame.size.width +  197, y: 14, width: 484, height: 232))
+            }else if x == 2 {
+                lynn = UIImageView(frame: CGRect(x: CGFloat(x)*view.frame.size.width + 78, y: 59, width: 681, height: 175))
+            }
+            else if x == 3 {
+                lynn = UIImageView(frame: CGRect(x: CGFloat(x)*view.frame.size.width +  264, y: 13, width: 278, height: 278))
+            }
+            else if x == 4 {
+                lynn = UIImageView(frame: CGRect(x: CGFloat(x)*view.frame.size.width +  194, y: 78, width: 438, height: 210))
+            }
+            else if x == 5 {
+                lynn = UIImageView(frame: CGRect(x: CGFloat(x)*view.frame.size.width +  137, y: 18, width: 548, height: 263))
+            }
+            else if x == 6 {
+                lynn = UIImageView(frame: CGRect(x: CGFloat(x)*view.frame.size.width +  270, y: 116, width: 273, height: 164))
+            }
+            else if x == 7 {
+                lynn = UIImageView(frame: CGRect(x: CGFloat(x)*view.frame.size.width +  187, y: 19, width: 483, height: 251))
+            }
+            else if x == 8 {
+                lynn = UIImageView(frame: CGRect(x: CGFloat(x)*view.frame.size.width +  270, y: -2, width: 287, height: 287))
+            }
+            else if x == 9 {
+                lynn = UIImageView(frame: CGRect(x: CGFloat(x)*view.frame.size.width +  250, y: 65, width: 345, height: 207))
+            }
+            else if x == 10{
+                lynn = UIImageView(frame: CGRect(x: CGFloat(x)*view.frame.size.width +  246, y: 11, width: 350, height: 262))
+            }
+            else {
+    
+                
+            }
            
+        
             
-            //deskripsi.text = caption[x]
+
+          
             page.image = gambars[x]
             lynn.image = airgif[x]
+           
             scrollView.addSubview(page)
             scrollView.addSubview(lynn)
  //           scrollView.addSubview(deskripsi)

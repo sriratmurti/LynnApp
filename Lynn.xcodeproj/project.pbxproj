@@ -34,6 +34,7 @@
 		6DE9E28926A4628F00446DA2 /* stortel6.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE9E27E26A4628F00446DA2 /* stortel6.mp3 */; };
 		6DE9E28A26A4628F00446DA2 /* stortel5.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE9E27F26A4628F00446DA2 /* stortel5.mp3 */; };
 		6DE9E28B26A4628F00446DA2 /* stortel3.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE9E28026A4628F00446DA2 /* stortel3.mp3 */; };
+		E23406DE26A68C3D00DCAEC9 /* Benefit.gif in Resources */ = {isa = PBXBuildFile; fileRef = E23406DD26A68C3D00DCAEC9 /* Benefit.gif */; };
 		E246C97026A25CF100E85581 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E246C96F26A25CF100E85581 /* AppDelegate.swift */; };
 		E246C97226A25CF100E85581 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E246C97126A25CF100E85581 /* SceneDelegate.swift */; };
 		E246C97426A25CF100E85581 /* StoryTelling.swift in Sources */ = {isa = PBXBuildFile; fileRef = E246C97326A25CF100E85581 /* StoryTelling.swift */; };
@@ -42,7 +43,6 @@
 		E246C97C26A25CF100E85581 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E246C97A26A25CF100E85581 /* LaunchScreen.storyboard */; };
 		E262D1DD26A3ACAA008C9FF2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E262D1DC26A3ACAA008C9FF2 /* ViewController.swift */; };
 		E262D1DF26A3B2A4008C9FF2 /* animasi.swift in Sources */ = {isa = PBXBuildFile; fileRef = E262D1DE26A3B2A4008C9FF2 /* animasi.swift */; };
-		E2B67DA126A53FC50075126A /* Benefit.gif in Resources */ = {isa = PBXBuildFile; fileRef = E2B67DA026A53FC50075126A /* Benefit.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -73,6 +73,7 @@
 		6DE9E27E26A4628F00446DA2 /* stortel6.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stortel6.mp3; sourceTree = "<group>"; };
 		6DE9E27F26A4628F00446DA2 /* stortel5.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stortel5.mp3; sourceTree = "<group>"; };
 		6DE9E28026A4628F00446DA2 /* stortel3.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stortel3.mp3; sourceTree = "<group>"; };
+		E23406DD26A68C3D00DCAEC9 /* Benefit.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = Benefit.gif; path = Lynn/Gif/Benefit.gif; sourceTree = SOURCE_ROOT; };
 		E246C96C26A25CF100E85581 /* Lynn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Lynn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E246C96F26A25CF100E85581 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		E246C97126A25CF100E85581 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -83,7 +84,6 @@
 		E246C97D26A25CF100E85581 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E262D1DC26A3ACAA008C9FF2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E262D1DE26A3B2A4008C9FF2 /* animasi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = animasi.swift; sourceTree = "<group>"; };
-		E2B67DA026A53FC50075126A /* Benefit.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = Benefit.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,7 +114,7 @@
 				6D3EFEDB26A477B500ACA245 /* Sweat.gif */,
 				6D3EFEDC26A477B500ACA245 /* Toksin New.gif */,
 				6D3EFEDA26A477B500ACA245 /* weak.gif */,
-				E2B67DA026A53FC50075126A /* Benefit.gif */,
+				E23406DD26A68C3D00DCAEC9 /* Benefit.gif */,
 			);
 			path = "Animasi Lynn";
 			sourceTree = "<group>";
@@ -249,7 +249,7 @@
 				E246C97926A25CF100E85581 /* Assets.xcassets in Resources */,
 				6D3EFEEC26A477B500ACA245 /* Secret.gif in Resources */,
 				6DE9E27526A460B100446DA2 /* home page.mp3 in Resources */,
-				E2B67DA126A53FC50075126A /* Benefit.gif in Resources */,
+				E23406DE26A68C3D00DCAEC9 /* Benefit.gif in Resources */,
 				6D3EFEE926A477B500ACA245 /* Sweat.gif in Resources */,
 				6D3EFEF126A477B500ACA245 /* Hero Lynn.gif in Resources */,
 				6D3EFEF026A477B500ACA245 /* contain New.gif in Resources */,
