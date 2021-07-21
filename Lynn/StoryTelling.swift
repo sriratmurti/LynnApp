@@ -18,6 +18,7 @@ class ViewController: UIViewController {
     
     var bgSoundURI: URL?
     var backgroundSound = AVAudioPlayer()
+    var runCount = 0
     
     private let scrollView = UIScrollView()
     
@@ -25,7 +26,7 @@ class ViewController: UIViewController {
     
     var gambars = [UIImage(named: "1"),UIImage(named: "2"),UIImage(named: "3"),UIImage(named: "4"),UIImage(named: "5"),UIImage(named: "6"),UIImage(named: "7"),UIImage(named: "8"),UIImage(named: "9"),UIImage(named: "10"),UIImage(named: "11")]
     
-    var voice = ["stortel1", "stortel2", "stortel3", "stortel4", "stortel5", "stortel6", "stortel7", "stortel8", "stortel9", "stortel10", "stortel11"]
+    var voice = ["stortel1", "stortel2", "stortel3 new", "stortel4", "stortel5", "stortel6", "stortel7", "stortel8", "stortel9", "stortel10", "stortel11"]
     
     var coba = UIImage.gif(name: "Organ")
     var coba2 = UIImage.gif(name: "Toksin")
@@ -57,6 +58,7 @@ class ViewController: UIViewController {
     }
     
     @objc func dismissSelf(){
+        runCount = 1000
         dismiss(animated: true, completion: nil)
     }
     @objc private func pagecontrolDidChange(_ sender: UIPageControl){
@@ -89,11 +91,13 @@ class ViewController: UIViewController {
     private func runTimer(){
         //second 1 = stortel1 is played, its duration is 5 seconds
         self.playSound(number: 0)
-        var runCount = 0
         Timer.scheduledTimer(withTimeInterval: 1.0, repeats: true) { timer in
-            runCount += 1
+            self.runCount += 1
         
-            switch runCount{
+            switch self.runCount{
+            //Masih belum fix
+            case 1000:
+                timer.invalidate()
             case 7:
                 //second 7 = stortel2 is played, its duration is 10 seconds
                 self.playSound(number: 1)
@@ -140,7 +144,7 @@ class ViewController: UIViewController {
             default:
 //                second 1 = stortel1 is played, its duration is 5 seconds
 //                self.playSound(number: 0)
-                print("Sekarang detik \(runCount)")
+                print("Sekarang detik \(self.runCount)")
             }
         }
     }
@@ -151,6 +155,11 @@ class ViewController: UIViewController {
             guard let uri = bgSoundURI else {return}
             backgroundSound = try AVAudioPlayer(contentsOf: uri)
             backgroundSound.play()
+            
+            //Masih perlu diperbaiki
+            if runCount == 1000{
+                backgroundSound.stop()
+            }
         }catch{
             print(error)
         }

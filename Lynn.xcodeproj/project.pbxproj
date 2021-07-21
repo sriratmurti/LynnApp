@@ -21,6 +21,7 @@
 		6D3EFEF026A477B500ACA245 /* contain New.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EFEE226A477B500ACA245 /* contain New.gif */; };
 		6D3EFEF126A477B500ACA245 /* Hero Lynn.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EFEE326A477B500ACA245 /* Hero Lynn.gif */; };
 		6D3EFEF226A477B500ACA245 /* Profil New.gif in Resources */ = {isa = PBXBuildFile; fileRef = 6D3EFEE426A477B500ACA245 /* Profil New.gif */; };
+		6DB8267526A7DAF100E96BD1 /* stortel3 new.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DB8267426A7DAF100E96BD1 /* stortel3 new.mp3 */; };
 		6DE9E26726A45FD800446DA2 /* sound1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE9E26626A45FD800446DA2 /* sound1.mp3 */; };
 		6DE9E27526A460B100446DA2 /* home page.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE9E27426A460B000446DA2 /* home page.mp3 */; };
 		6DE9E28126A4628F00446DA2 /* stortel2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 6DE9E27626A4628F00446DA2 /* stortel2.mp3 */; };
@@ -60,6 +61,7 @@
 		6D3EFEE226A477B500ACA245 /* contain New.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "contain New.gif"; path = "Lynn/Animasi Lynn/contain New.gif"; sourceTree = SOURCE_ROOT; };
 		6D3EFEE326A477B500ACA245 /* Hero Lynn.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "Hero Lynn.gif"; path = "Lynn/Animasi Lynn/Hero Lynn.gif"; sourceTree = SOURCE_ROOT; };
 		6D3EFEE426A477B500ACA245 /* Profil New.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; name = "Profil New.gif"; path = "Lynn/Animasi Lynn/Profil New.gif"; sourceTree = SOURCE_ROOT; };
+		6DB8267426A7DAF100E96BD1 /* stortel3 new.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "stortel3 new.mp3"; sourceTree = "<group>"; };
 		6DE9E26626A45FD800446DA2 /* sound1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = sound1.mp3; sourceTree = "<group>"; };
 		6DE9E27426A460B000446DA2 /* home page.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "home page.mp3"; sourceTree = "<group>"; };
 		6DE9E27626A4628F00446DA2 /* stortel2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = stortel2.mp3; sourceTree = "<group>"; };
@@ -122,6 +124,7 @@
 		6DE9E25526A3D8DB00446DA2 /* Sound */ = {
 			isa = PBXGroup;
 			children = (
+				6DB8267426A7DAF100E96BD1 /* stortel3 new.mp3 */,
 				6DE9E26626A45FD800446DA2 /* sound1.mp3 */,
 				6DE9E27426A460B000446DA2 /* home page.mp3 */,
 				6DE9E27B26A4628F00446DA2 /* stortel1.mp3 */,
@@ -254,6 +257,7 @@
 				6D3EFEF126A477B500ACA245 /* Hero Lynn.gif in Resources */,
 				6D3EFEF026A477B500ACA245 /* contain New.gif in Resources */,
 				6D3EFEE826A477B500ACA245 /* weak.gif in Resources */,
+				6DB8267526A7DAF100E96BD1 /* stortel3 new.mp3 in Resources */,
 				6DE9E28626A4628F00446DA2 /* stortel1.mp3 in Resources */,
 				6DE9E28A26A4628F00446DA2 /* stortel5.mp3 in Resources */,
 				6DE9E28826A4628F00446DA2 /* stortel11.mp3 in Resources */,
