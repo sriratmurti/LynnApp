@@ -33,7 +33,7 @@ class homeScreen : UIViewController {
 
         
         air.loadGif(name: "Profil New")
-        air.frame = CGRect (x: 330, y: 13, width: 224, height: 224)
+        air.frame = CGRect (x: 89, y: 53, width: 224, height: 224)
         label.text = "Jaga tubuh dengan minum air putih"
         
     }
