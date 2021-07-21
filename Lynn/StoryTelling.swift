@@ -164,10 +164,14 @@ class ViewController: UIViewController {
         for x in 0 ..< 11 {
             
             let button = UIButton.init(type: .roundedRect)
-                        button.setTitle("<Home", for: .normal)
-                        button.frame = CGRect(x: CGFloat(x) * view.frame.size.width + 20, y: 25, width: 50, height: 25)
-                        button.addTarget(self, action: #selector(dismissSelf), for: .touchDown)
+            button.setTitle("< Home   ", for: .normal)
+            
+        
+            button.frame = CGRect(x: CGFloat(x) * view.frame.size.width + 20, y: 25, width: 75, height: 50)
+          
+            button.addTarget(self, action: #selector(dismissSelf), for: .touchDown)
             button.backgroundColor = .clear
+            button.tintColor = .black
 
             let page = UIImageView(frame: CGRect(x: CGFloat(x) * view.frame.size.width, y: -0.5, width: scrollView.frame.size.width, height: scrollView.frame.size.height))
             

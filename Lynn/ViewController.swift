@@ -16,9 +16,9 @@ class homeScreen : UIViewController {
     override func viewDidLoad() {
         super .viewDidLoad()
         
-        imageView.image = UIImage(named: "satu")
+        imageView.image = UIImage(named: "home")
 
-        air.loadGif(name: "Profil")
+        air.loadGif(name: "Profil New")
     }
     
 }
