@@ -41,45 +41,64 @@
                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="ViX-Rh-QVQ">
                                 <rect key="frame" x="0.0" y="0.0" width="896" height="414"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" secondItem="ViX-Rh-QVQ" secondAttribute="height" multiplier="448:207" id="iZK-sW-9bI"/>
+                                    <constraint firstAttribute="width" constant="896" id="Ksy-83-6dU"/>
+                                    <constraint firstAttribute="width" secondItem="ViX-Rh-QVQ" secondAttribute="height" multiplier="448:207" id="bIu-t7-aiE"/>
+                                    <constraint firstAttribute="height" constant="414" id="qjN-By-S46"/>
                                 </constraints>
                             </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GeF-C1-5sM">
-                                <rect key="frame" x="703" y="263" width="62" height="48"/>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="QNR-tL-dU1">
+                                <rect key="frame" x="328" y="111" width="240" height="128"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <state key="normal" title="Start"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EX6-2o-2f4">
+                                <rect key="frame" x="413" y="331" width="49" height="34"/>
+                                <color key="backgroundColor" red="0.78126984830000001" green="0.89812177419999994" blue="0.89019763470000002" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="20"/>
+                                <state key="normal" title="Mulai">
+                                    <color key="titleColor" red="0.1234147921" green="0.30637925859999998" blue="0.2745078802" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                </state>
                                 <connections>
-                                    <segue destination="BYZ-38-t0r" kind="show" id="fmg-4C-TKW"/>
+                                    <segue destination="BYZ-38-t0r" kind="show" id="eha-n7-nyl"/>
                                 </connections>
                             </button>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="5kX-4r-d30">
-                                <rect key="frame" x="130" y="128" width="240" height="128"/>
-                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lar-vM-AlW">
+                                <rect key="frame" x="138" y="262" width="620" height="43"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="43" id="7zz-Iq-yZp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="ChalkboardSE-Regular" family="Chalkboard SE" pointSize="28"/>
+                                <color key="textColor" red="0.71511071920000002" green="0.89032870529999997" blue="0.87843316790000003" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6hL-9X-9b2"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
-                            <constraint firstAttribute="bottom" secondItem="ViX-Rh-QVQ" secondAttribute="bottom" id="CMa-YB-3t5"/>
-                            <constraint firstItem="5kX-4r-d30" firstAttribute="leading" secondItem="6hL-9X-9b2" secondAttribute="leading" constant="86" id="CPh-Gq-21P"/>
-                            <constraint firstItem="6hL-9X-9b2" firstAttribute="trailing" secondItem="5kX-4r-d30" secondAttribute="trailing" constant="482" id="DGg-rq-tte"/>
-                            <constraint firstItem="ViX-Rh-QVQ" firstAttribute="leading" secondItem="R4z-Zz-Fb8" secondAttribute="leading" id="N8n-Zg-CqU"/>
-                            <constraint firstItem="ViX-Rh-QVQ" firstAttribute="top" secondItem="6hL-9X-9b2" secondAttribute="top" id="NhX-xH-LtB"/>
-                            <constraint firstItem="6hL-9X-9b2" firstAttribute="bottom" secondItem="5kX-4r-d30" secondAttribute="bottom" constant="137" id="OTx-F3-wuY"/>
-                            <constraint firstItem="5kX-4r-d30" firstAttribute="top" secondItem="6hL-9X-9b2" secondAttribute="top" constant="128" id="c8G-Uw-9Wd"/>
-                            <constraint firstItem="ViX-Rh-QVQ" firstAttribute="centerY" secondItem="R4z-Zz-Fb8" secondAttribute="centerY" id="cYG-WT-36g"/>
-                            <constraint firstItem="ViX-Rh-QVQ" firstAttribute="centerX" secondItem="R4z-Zz-Fb8" secondAttribute="centerX" id="pe7-QX-ZGm"/>
-                            <constraint firstAttribute="trailing" secondItem="ViX-Rh-QVQ" secondAttribute="trailing" id="sQo-bw-n93"/>
+                            <constraint firstItem="ViX-Rh-QVQ" firstAttribute="top" secondItem="6hL-9X-9b2" secondAttribute="top" id="0TJ-ja-r55"/>
+                            <constraint firstAttribute="trailing" secondItem="ViX-Rh-QVQ" secondAttribute="trailing" id="5Rb-54-7ho"/>
+                            <constraint firstItem="ViX-Rh-QVQ" firstAttribute="top" secondItem="R4z-Zz-Fb8" secondAttribute="top" id="6Gn-5G-KMQ"/>
+                            <constraint firstAttribute="trailing" secondItem="ViX-Rh-QVQ" secondAttribute="trailing" id="89w-sh-8lL"/>
+                            <constraint firstAttribute="bottom" secondItem="ViX-Rh-QVQ" secondAttribute="bottom" id="Ej7-KK-XoE"/>
+                            <constraint firstAttribute="bottom" secondItem="ViX-Rh-QVQ" secondAttribute="bottom" id="Gn2-Bj-UfJ"/>
+                            <constraint firstItem="6hL-9X-9b2" firstAttribute="bottom" secondItem="EX6-2o-2f4" secondAttribute="bottom" constant="28" id="HBO-nd-iNS"/>
+                            <constraint firstItem="Lar-vM-AlW" firstAttribute="leading" secondItem="6hL-9X-9b2" secondAttribute="leading" constant="94" id="UTk-CV-ZFp"/>
+                            <constraint firstItem="ViX-Rh-QVQ" firstAttribute="leading" secondItem="R4z-Zz-Fb8" secondAttribute="leading" id="W6l-OQ-vIV"/>
+                            <constraint firstItem="Lar-vM-AlW" firstAttribute="centerX" secondItem="ViX-Rh-QVQ" secondAttribute="centerX" id="Wf6-dm-qgx"/>
+                            <constraint firstItem="ViX-Rh-QVQ" firstAttribute="leading" secondItem="R4z-Zz-Fb8" secondAttribute="leading" id="Zdi-lf-s4w"/>
+                            <constraint firstItem="EX6-2o-2f4" firstAttribute="top" secondItem="Lar-vM-AlW" secondAttribute="bottom" constant="26" id="n84-is-r1U"/>
+                            <constraint firstAttribute="bottom" secondItem="Lar-vM-AlW" secondAttribute="bottom" constant="109" id="noH-RW-3C2"/>
+                            <constraint firstItem="EX6-2o-2f4" firstAttribute="leading" secondItem="6hL-9X-9b2" secondAttribute="leading" constant="369" id="vyj-QE-gLA"/>
                         </constraints>
                     </view>
                     <connections>
-                        <outlet property="air" destination="5kX-4r-d30" id="JnR-6j-CTg"/>
+                        <outlet property="air" destination="QNR-tL-dU1" id="vCJ-9c-Q7v"/>
                         <outlet property="imageView" destination="ViX-Rh-QVQ" id="3XH-SB-NpM"/>
+                        <outlet property="label" destination="Lar-vM-AlW" id="m1e-VI-THn"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Qew-61-gx0" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-613" y="113"/>
+            <point key="canvasLocation" x="-613.39285714285711" y="111.59420289855073"/>
         </scene>
     </scenes>
     <resources>
